@@ -1,3 +1,8 @@
+task :enviroment do 
+  require relative './congif/enviroment'
+end 
+
+
 desc 'outputs hello to the terminal'
 task :hello do
   puts "hello from Rake!"
