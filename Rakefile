@@ -1,5 +1,5 @@
 task :enviroment do 
-  require relative './congif/enviroment'
+  require_relative './congif/enviroment'
 end 
 
 
